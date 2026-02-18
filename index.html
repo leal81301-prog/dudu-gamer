@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudu Gamer | Blog de Notícias</title>
+    <style>
+        /* Estilo Geral */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0e14; /* Fundo Escuro */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1a222d;
+            border-bottom: 3px solid #007bff; /* Detalhe Azul */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Container do Blog */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Card de Notícia */
+        .post {
+            background-color: #1f2937;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: 0.3s;
+            border-left: 5px solid transparent;
+        }
+
+        .post:hover {
+            border-left: 5px solid #007bff;
+            transform: scale(1.02);
+        }
+
+        .post-content {
+            padding: 20px;
+        }
+
+        .post h2 {
+            color: #00a2ff;
+            margin-top: 0;
+        }
+
+        .date {
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* Botão */
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DUDU GAMER</h1>
+    <p>As últimas novidades do mundo dos games</p>
+</header>
+
+<div class="container">
+    
+    <article class="post">
+        <div class="post-content">
+            <span class="date">18 de Fevereiro, 2026</span>
+            <h2>O Lançamento do Ano: Vale a pena jogar?</h2>
+            <p>Hoje vamos analisar o novo RPG que está quebrando recordes de jogadores simultâneos...</p>
+            <a href="#" class="btn">Ler mais</a>
+        </div>
+    </article>
+
+    <article class="post">
+        <div class="post-content">
+            <span class="date">15 de Fevereiro, 2026</span>
+            <h2>Melhores Teclados Mecânicos para 2026</h2>
+            <p>Se você quer melhorar sua performance, o setup faz toda a diferença. Confira nossa lista...</p>
+            <a href="#" class="btn">Ler mais</a>
+        </div>
+    </article>
+
+</div>
+
+</body>
+</html>
